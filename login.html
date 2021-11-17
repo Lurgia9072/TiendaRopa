@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREND´S | Login</title>    
+    <link rel="stylesheet" href="/Proyecto/css/login.css"> 
+    <link rel="stylesheet" href="/Proyecto/css/styles.css"> 
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+
+
+    <div> 
+        <div class="navL">             
+          <div style=" padding: 15px;" class="logoL">
+            <h1 style="margin-bottom: 0px; color: rgb(0, 0, 0); line-height:35px ; " >TREND´S</h1><br>
+          </div>
+          <nav style="padding-bottom: 10px;" class="menu">             
+              <a href="index.html">INICIO</a>
+              <a href="#">MUJERES</a>
+              <a  href="#">HOMBRES</a>
+              <a   href="#">NIÑOS / AS</a> 
+              <a target="_top" href=""><i class="fas fa-cart-arrow-down"></i></a>    
+              <a target="_top" href=""> <i class="far fa-heart"></i></a>  
+              <a target="_top" href="" id="registrate" ><i class="far fa-user"></i> </a> <!-- login -->
+              <div style="float: right;" id="usernav">    
+                <a target="_top" href="" id="cerrar" >  </a> 
+                   
+            </div>
+                    
+            
+          </nav>           
+        </div>
+    </div>
+
+
+
+    <section id="login">
+        <div class="container right-panel-active">
+            <!-- REGISTRARSE -->
+            <div class="container__form container--signup">
+                <form  class="form" id="form1">
+                    <h2 class="form__title">REGISTRARSE</h2>
+                    <input type="text" id="usuario" placeholder="User" class="input"  required/>
+                    <input type="email" id="email" placeholder="Email" class="input"  required/>
+                    <input type="password" id="contrseña" placeholder="Password" class="input" required />
+                    <div  style="display: flex; " class="politica">
+                      <input  type="checkbox" required id="">  
+                      <p style="padding-left: 10px;" > Acepta los terminos y condiciones </p>
+                    </div>
+           
+                    <button class="btn" type="submit" >Registrarse</button>
+                </form>
+            </div>
+    
+            <!-- INICIAR SESION -->
+            <div class="container__form container--signin">
+                <form action="#" class="form" id="form2">
+                    <h2 class="form__title">INICIAR SESION</h2>
+                    <input type="email" placeholder="Email" class="input" />
+                    <input type="password" placeholder="Password" class="input" />
+                    <a href="#" class="link">Ollidaste tu contraseña?</a>
+                    <p id="p1"></p>
+                    <button class="btn">Iniciar sesion</button>
+                </form>
+            </div>
+    
+    
+            <div class="container__overlay">
+                <div class="overlay">
+                    <div class="overlay__panel overlay--left">
+                        <button class="btn" onclick="" id="signIn">Iniciar sesion</button>
+                    </div>
+                    <div class="overlay__panel overlay--right">
+                        <button class="btn" id="signUp">Registrarse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ <main class="footer">
+            <div class="sobre">               
+               <div class="p">
+                  <h3 style="color: rgb(250, 165, 37);">SOBRE NOSOTROS</h3><br>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repellat necessitatibus vel reprehenderit at quos neque obcaecati odit animi repellendus quae ullam ratione, iste, perspiciatis voluptas quo nihil iusto? Repellat labore enim harum delectus nostrum amet voluptates nulla magnam.</p>
+               </div>
+              
+              
+                <div class="categorias"> 
+                  <h3 style="color: rgb(250, 165, 37);">CATEGORIAS</h3><br>
+                  <ul>
+                    <li><a href="#">bolsa </a></li>
+                    <li><a href="#">accesorios</a></li>
+                    <li><a href="#">belleza</a></li>
+                    <li><a href="#">ropas</a></li>
+                  </ul>
+                </div>
+
+                <div class="mapa"> 
+                  <h3 style="color: rgb(250, 165, 37);">UBICACIÓN</h3><br>
+                 <a href=""> <img style="width: 200px; " src="https://ep01.epimg.net/tecnologia/imagenes/2019/11/13/actualidad/1573658897_566202_1573659544_noticia_normal.jpg" alt=""></a>
+                
+                 </div> 
+          </div>
+
+
+            <div class="contactos">
+              <h3 style="color:  rgb(250, 165, 37);">CONTACTOS</h3><br>
+              <a href=""><i class="fab fa-facebook-f "></i></a>
+              <a href=""><i class="fab fa-instagram "></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+          
+            </div>
+              <br>
+           
+            <footer>            
+              © copyright | Todos los derechos del autor   
+            </footer>
+          </main>
+
+
+          
+          <script src="/Proyecto/js/Jquery/nav.js"></script>
+         <script src="/Proyecto/js/login.js"></script>
+</body> 
+</html>
